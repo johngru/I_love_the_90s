@@ -1,0 +1,30 @@
+/*Selected tag:{
+    property:value
+}
+*/
+
+body{
+    background:url(https://www.listchallenges.com/f/lists/95504085-fc76-4242-91e0-1dc6af1eea52.jpg);
+    background-repeat: repeat;
+    background-color: beige;
+}
+
+div{
+    background-color: aqua;
+    border-color:darkblue;
+    border-width: 2px;
+    border-style:groove;
+    padding-left: 5%;
+}
+img{
+    height: auto;
+    max-width: 10%;
+}
+p{
+    color:steelblue
+}
+
+span{
+    background-color: burlywood;
+    color:black;
+}
