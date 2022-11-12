@@ -1,0 +1,45 @@
+h1{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+body{
+    font-size:20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#two{
+    font: size 1.1em;
+}
+
+p{
+    text-align: justify;
+    margin: 5px 20px 10px 20px;
+    padding:5px;
+}
+
+#top{
+    border:4px solid blue;
+    width:25%;
+    max-width: 200px;
+    text-align:center;
+    margin: 5px 20px 10px 20px;
+    padding:5px;
+}
+
+#top:hover{
+    background-color: rgb(193, 209, 209);
+}
+
+#bottom{
+    border: 4px solid red;
+    width:25%;
+    max-width: 200px;
+    text-align:center;
+    margin: 5px 20px 10px 20px;
+    padding:5px;
+}
+
+#bottom:hover{
+    background-color: rgb(193, 209, 209);
+}

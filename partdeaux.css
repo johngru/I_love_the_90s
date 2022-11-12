@@ -28,3 +28,17 @@ span{
     background-color: burlywood;
     color:black;
 }
+
+iframe{
+    width:40%;
+    height:100;
+    padding:10px 10px 10px 10px;
+    background-color:rgba(127, 255, 212,0.8);
+}
+
+a:hover{
+    color:blueviolet;
+}
+a:visited{
+    color:red;
+}

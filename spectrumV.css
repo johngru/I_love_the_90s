@@ -1,0 +1,65 @@
+/* Intro Tag */
+#intro{
+    font-family: 'Square Peg', cursive;
+    text-align: center;
+}
+
+body{
+    font-size:20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+table{
+    margin:auto;
+}
+
+th{
+    text-align: center;
+    background-color: aqua;
+    padding:10px 40px 300px 40px;
+    width:10%;
+    border: 3px solid white;
+}
+
+#p1{
+    background-color:#264653;
+}
+#p1:hover{
+    background-color:#5f0f40;
+}
+#p2{
+    background-color:#2a9d8f;
+}
+#p2:hover{
+    background-color:#5f0f40;
+}
+#p3{
+    background-color:#e9c46a;
+}
+#p3:hover{
+    background-color:#5f0f40;
+}
+#p4{
+    background-color:#f4a261;
+}
+#p4:hover{
+    background-color:#5f0f40;
+}
+#p5{
+    background-color:#e76f51;
+}
+#p5:hover{
+    background-color:#5f0f40;
+}
+#p6{
+    background-color:#f3722c;
+}
+#p6:hover{
+    background-color:#5f0f40;
+}
+#p7{
+    background-color:#f94144;
+}
+#p7:hover{
+    background-color:#5f0f40;
+}
