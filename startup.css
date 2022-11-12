@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(4, 4, 34);
+    color:white;
+    text-align: center;
+
+    border-top:0px solid rgb(0, 0, 0);
+    border-right:50px solid turquoise;
+    border-bottom:50px solid turquoise;
+    border-left:50px solid turquoise;
+
+    padding-left:50px;
+    padding-right:50px;
+
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+h2{
+    font-weight:100;
+}
+p{
+    padding-top: 20px;
+    padding-bottom:20px;
+    padding-left:100px;
+    padding-right:100px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin:auto;
+    width:200px;
+}
+
+form input{
+    font-weight: 100;
+    padding-top: 5px;
+    padding-bottom:5px;
+    margin-top:5px;
+    margin-bottom:15px;
+}
+
+#signup{
+    font-size: 1.5em;
+    font-weight:lighter;
+    border:1px solid rgb(255, 255, 255);
+    width:100px;
+    margin:auto;
+    margin-bottom:20px;
+    min-width: fit-content;
+    background-color: rgb(197, 197, 11);
+    border-radius: 25px;
+    height:50%;
+    padding:20px 20px 20px 20px;
+}
+
+#signup:hover{
+    background-color: rgb(93, 93, 5);
+    color: white;
+}
