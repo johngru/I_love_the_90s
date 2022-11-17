@@ -53,7 +53,9 @@ function Play(cell){
 
 function DrawCheck(){
     if(count===9){
-        cells[4].innerHTML=`<h1>DRAW!</h1>`;       
+        cells[4].innerHTML=`<h1>DRAW!</h1>`;
+        startgame=false;
+        count=0;       
     }
 }
 
