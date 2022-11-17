@@ -46,6 +46,9 @@ function Play(cell){
         DrawCheck();
         WinnerCheck();
     }
+    else{
+        Restart();
+    }
 }
 
 function DrawCheck(){
