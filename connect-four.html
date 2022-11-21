@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./connect-four.css">
+
+    <title>Connect Four</title>
+</head>
+<body>
+    
+<div class="container-flud">
+
+    <div class="h-50 p-3 mb-5 text-bg-light rounded-3">
+
+        <div class="row">
+
+            <div class="col-sm-8">
+        <h1>Connect Four</h1>
+        <p class="lead">First person to connect four wins!</p>
+        <button class="btn btn-lg btn-outline-dark" id="play" type="button">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play-fill" viewBox="0 0 16 16">
+                <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"/>
+              </svg>
+        </button>
+
+
+        <button class="btn btn-lg btn-outline-dark" id="restart" type="button">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-counterclockwise" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M8 3a5 5 0 1 1-4.546 2.914.5.5 0 0 0-.908-.417A6 6 0 1 0 8 2v1z"/>
+                <path d="M8 4.466V.534a.25.25 0 0 0-.41-.192L5.23 2.308a.25.25 0 0 0 0 .384l2.36 1.966A.25.25 0 0 0 8 4.466z"/>
+              </svg>
+        </button>
+            </div>
+
+        <div class="col-sm-4">
+            <div class="input-group mb-3 mt-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="inputGroup-sizing-default">
+                    <button type="button" class="btn btn-danger btn-circle btn-xxl"> </button>
+                  </span>
+                </div>
+                <input type="text" id="redPlayer" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" placeholder="Red Player" value="">
+                <div class="input-group-append">
+                    <button class="btn btn-outline-secondary" id="redSubmit" type="submit">Enter</button>
+                  </div>
+            </div>
+
+            <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroup-sizing-default">
+                    <button type="button" class="btn btn-primary btn-circle btn-xxl"> </button>
+                </span>
+            </div>
+            <input type="text" id="bluePlayer" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" placeholder="Blue Player" value="">
+            <div class="input-group-append">
+                <button class="btn btn-outline-secondary" id="blueSubmit" type="button">Enter</button>
+            </div>
+
+            <div class="input-group mb-3">
+                <h2 class="mt-2" id="result"></h2>
+            </div>
+
+        </div>
+
+        </div>
+
+    </div>
+
+
+<div class="row">
+    <div class="col-xl-4 col-lg-3 col-md-2 col-sm-1">
+
+    </div>
+    <div class="col-xl-4 col-lg-6 col-md-8 col-sm-10">
+        <table class="table table-bordered grey-highlight">
+            <tr id="row1">
+                <td id="column1"></td>
+                <td id="column2"></td>
+                <td id="column3"></td>
+                <td id="column4"></td>
+                <td id="column5"></td>
+                <td id="column6"></td>
+                <td id="column7"></td>
+
+            </tr>
+            <tr id="row2">
+                <td id="column1"></td>
+                <td id="column2"></td>
+                <td id="column3"></td>
+                <td id="column4"></td>
+                <td id="column5"></td>
+                <td id="column6"></td>
+                <td id="column7"></td>
+            </tr>
+            <tr id="row3">
+                <td id="column1"></td>
+                <td id="column2"></td>
+                <td id="column3"></td>
+                <td id="column4"></td>
+                <td id="column5"></td>
+                <td id="column6"></td>
+                <td id="column7"></td>
+            </tr>
+            <tr id="row4">
+                <td id="column1"></td>
+                <td id="column2"></td>
+                <td id="column3"></td>
+                <td id="column4"></td>
+                <td id="column5"></td>
+                <td id="column6"></td>
+                <td id="column7"></td>
+            </tr>
+            <tr id="row5">
+                <td id="column1"></td>
+                <td id="column2"></td>
+                <td id="column3"></td>
+                <td id="column4"></td>
+                <td id="column5"></td>
+                <td id="column6"></td>
+                <td id="column7"></td>
+            </tr>
+            <tr id="row6">
+                <td id="column1"></td>
+                <td id="column2"></td>
+                <td id="column3"></td>
+                <td id="column4"></td>
+                <td id="column5"></td>
+                <td id="column6"></td>
+                <td id="column7"></td>
+            </tr>
+        </table>
+    </div>
+    <div class="col-xl-4 col-lg-3 col-md-2 col-sm-1">
+        
+    </div>
+</div>
+
+</div>
+
+<script src="./jQuery.js"></script>
+<script src="./connect-four.js"></script>
+
+
+
+
+</body>
+</html>
