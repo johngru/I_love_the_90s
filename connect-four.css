@@ -1,7 +1,7 @@
-table {
+div table {
     table-layout:fixed;
     width: 100%;
-    height: 450px;
+    height: 100%;
   }
 
 #result{
